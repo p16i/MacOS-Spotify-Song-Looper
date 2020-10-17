@@ -21,8 +21,8 @@ function control_c {
 }
 
 function to_secs() {
-    secs=${1#*:}
-    mins=${1%:*}
+    secs=$((10#${1#*:}))
+    mins=$((10#${1%:*}))
     [ $secs -eq $mins ] && { echo $secs; return; }
     echo $(( 60 * $mins + $secs ))
 }

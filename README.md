@@ -6,7 +6,7 @@ This script provides an ability to loop a part of a song played on MacOS Spotify
 
 For example,
 ```
-spotify:track:3A5o0lL7xAvKd1loW3uIID 0 14
+spotify:track:3A5o0lL7xAvKd1loW3uIID 0:00 0:14
 ```
 The profile file contains
 Using this profile will loop intro part of [Matt Costa's Astair](https://open.spotify.com/embed/track/3A5o0lL7xAvKd1loW3uIID) between 2th and 11th second.
